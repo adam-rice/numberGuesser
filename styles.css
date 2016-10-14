@@ -78,33 +78,34 @@ h3 {
 
 @media screen and (max-width: 500px) {
   header {
-    font-size: 2.8rem;
-    height: 84px;
+    font-size: 2rem;
+    height: 70px;
   }
 
   #user-input {
-    font-size: 1.3rem;
-    height: 45px;
-    margin: 30px auto;
+    font-size: 1rem;
+    height: 38px;
+    width: 310px;
+    margin: 15px auto;
   }
 
   button, #reset {
     display: block;
     font-size: 1.3rem;
     margin: 0 auto;
-    height: 45px;
-    width: 360px;;
+    height: 38px;
+    width: 310px;;
   }
 
   #guess {
-   margin-bottom: 20px;
+   margin-bottom: 15px;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
   }
 
   h3 {
-    font-size: 11rem;
+    font-size: 8rem;
   }
 }
