@@ -43,7 +43,6 @@ function generateNumber() {
 function emptyInput() {
   (userInput).value = '';
   clear.setAttribute('disabled', true);
-  return userInput.focus();
 }
 
 function resetGame() {
@@ -89,7 +88,6 @@ function checkGuess() {
   emptyInput();
   reset.removeAttribute('disabled');
   disableButtons();
-  userInput.focus();
   if (isNaN(input)) {
     playerNumber.innerText = '?';
     return resultsMsg.innerText = 'Please guess a number';
